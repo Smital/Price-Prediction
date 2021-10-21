@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+
+}
+
+.main{
+    top:80px;
+    left:410px;
+    width:700px;
+    background-color:gainsboro;
+    align-items:center;
+    border-radius:5%;
+    margin-left: 30%;
+
+}
+.column{
+    float: left;
+    width: 25%;
+}
+.row:after {
+    display: table;
+    clear: both;
+}
+div{
+    padding:10px;
+}
+input[type=submit]{
+    background-color:Black;
+    color:white;
+    cursor:pointer;
+    padding: 16px 32px;
+}
+input[type=text]
+{
+    font-size: 30px;
+    border-radius: 5px;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+}
+h1{
+    font-size:40px;
+    color: black;
+}
+
+
+h2{
+    font-size:30px;
+    color:DarkRed;
+}
+#column1{
+    background-color: lightcoral;
+}
+
+
